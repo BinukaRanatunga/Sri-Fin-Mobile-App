@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D4ECD5"
+    tools:context=".UserProfile">
+
+    <!--    <EditText-->
+<!--        android:id="@+id/editTextTextPersonName21"-->
+<!--        android:layout_width="404dp"-->
+<!--        android:layout_height="46dp"-->
+<!--        android:layout_marginBottom="236dp"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textShortMessage|textPersonName|numberPassword|textWebPassword"-->
+<!--        android:text="Password :**************"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/textView"-->
+<!--        app:layout_constraintVertical_bias="0.667"-->
+<!--        tools:layout_editor_absoluteX="3dp" />-->
+
+    <Button
+        android:id="@+id/deleteb"
+        android:layout_width="138dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="92dp"
+        android:backgroundTint="#3DAE42"
+        android:text="@string/delete_profile"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName24"
+        android:layout_width="404dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Job :"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.582"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName22"
+        android:layout_width="404dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Username : "
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.315"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName23"
+        android:layout_width="404dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Email : "
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="414dp"
+        android:layout_height="45dp"
+        android:background="#3DAE42"
+        android:text="@string/profile"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName26"
+        android:layout_width="404dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Phone No :"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094"
+        app:srcCompat="@drawable/boy" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="138dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="176dp"
+        android:backgroundTint="#3DAE42"
+        android:text="ADD"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="283dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="#3DAE42"
+        android:text=" Give Feedback "
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.367"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/updateb"
+        android:layout_width="138dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="92dp"
+        android:backgroundTint="#3DAE42"
+        android:text="UPDATE PROFILE"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.728"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/viewb"
+        android:layout_width="138dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="176dp"
+        android:backgroundTint="#3DAE42"
+        android:text="VIEW"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.728"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

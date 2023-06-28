@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1037617283349",
+    "firebase_url": "https://srifin-binuka-default-rtdb.firebaseio.com",
+    "project_id": "srifin-binuka",
+    "storage_bucket": "srifin-binuka.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037617283349:android:3bac3c5e31a15ec6ffe91c",
+        "android_client_info": {
+          "package_name": "com.example.madproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037617283349-htlsbbg85vppp8e3a057i44icb5n03vf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcpJ_naAuJEnB3Mxo_4zd2Ie4cub4DMdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037617283349-htlsbbg85vppp8e3a057i44icb5n03vf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

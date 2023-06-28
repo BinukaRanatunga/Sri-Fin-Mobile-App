@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">MAD project</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="fogot_password">Fogot Password?</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="admin">Admin</string>
+    <string name="binuka_gmail_com">binuka@gmail.com</string>
+    <string name="i_feel_more_in_control_of_my_finances_since_using_this_app_the_ability_to_set_up_different_savings_goals_and_track_my_progress_has_been_motivating">I feel more in control of my finances since using this app. The ability to set up different savings goals and track my progress has been motivating</string>
+    <string name="reply">reply</string>
+    <string name="view">View</string>
+    <string name="kishen_gmail_com">kishen@gmail.com</string>
+    <string name="the_app_s_ability_to_categorize_my_expenses_has_made_it_so_much_easier_for_me_to_understand_where_my_money_is_going_i_no_longer_feel_like_my_money_is_slipping_away_without_my_knowledge">The app\'s ability to categorize my expenses has made it so much easier for me to understand where my money is going. I no longer feel like my money is slipping away without my knowledge</string>
+    <string name="show_feedback">Show feedback</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="binuka_ranatunga">Binuka Ranatunga</string>
+    <string name="username_binuka_rantunga">Username : Binuka Rantunga</string>
+    <string name="email_binuka_gmail_com">Email : binuka@gmail.com</string>
+    <string name="phone_no_0714569381">Phone No :0714569381</string>
+    <string name="job_under_graduate">Job :Under Graduate</string>
+    <string name="new_password">New Password :*********</string>
+    <string name="confire_password">Confire Password :*********</string>
+    <string name="save_changes">Save changes</string>
+    <string name="srifin_feedback">SriFIN Feedback</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="add_feedback">Add Feedback</string>
+    <string name="rate_us">Rate US!</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="srifin_register">SriFIN Register</string>
+    <string name="phone_no">Phone No :</string>
+    <string name="job">Job :</string>
+    <string name="re_enter_password">Re-enter password :</string>
+    <string name="register">Register</string>
+    <string name="user_feedback">User Feedback</string>
+    <string name="edit">edit</string>
+    <string name="delete">delete</string>
+    <string name="profile">Profile</string>
+    <string name="edit_details">Edit Details</string>
+    <string name="delete_profile">Delete Profile</string>
+
+</resources>
